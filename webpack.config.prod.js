@@ -1,5 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
+const autoprefixer = require('autoprefixer');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   devtool: 'source-map',
@@ -33,7 +35,8 @@ module.exports = {
       compressor: {
         warnings: false
       }
-    })
+    }),
+    new ExtractTextPlugin('css/bundle.css'),
   ],
   module: {
     loaders: [
@@ -43,8 +46,11 @@ module.exports = {
         include: path.join(__dirname, 'src')
       },
       {
-        test: /\.scss$/,
-        loader: 'style!css!sass'
+        test: /\.(css|scss)$/,
+        loader: ExtractTextPlugin.extract(
+          'style-loader',
+          'css-loader?modules&localIdentName=[name]__[local]__[hash:base64:5]!postcss-loader!sass-loader' // ExtractTextPlugin必须写一起
+        ) 
       }
     ]
   },
