@@ -5,4 +5,4 @@ lib
 coverage
 dist
 .idea
-.sublime*
+*.sublime*

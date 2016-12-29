@@ -11,7 +11,7 @@
     "start": "node devServer.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "hanpei",
   "license": "ISC",
   "browserslist": [
     "last 2 versions",
