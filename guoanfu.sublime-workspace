@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"auto",
+				"autoprefixer"
+			],
+			[
+				"cu",
+				"cwun	React: componentWillUnmount() {…}"
+			],
+			[
+				"cont",
+				"contianerStyle"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
 				"if",
 				"if	if"
 			],
@@ -198,10 +214,6 @@
 			[
 				"web",
 				"webpackConfig"
-			],
-			[
-				"cu",
-				"currentAddress"
 			],
 			[
 				"sele",
@@ -502,36 +514,40 @@
 			[
 				"tota",
 				"totalPrice"
-			],
-			[
-				"isFre",
-				"isFreeShow"
-			],
-			[
-				"disp",
-				"dispatch_limit"
-			],
-			[
-				"bt",
-				"btnText"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 167,
+				"buffer_size": 1906,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/hanpei/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"file": "src/components/counter/Counter.scss",
 			"settings":
 			{
-				"buffer_size": 1054,
+				"buffer_size": 349,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "webpack.config.dev.js",
+			"settings":
+			{
+				"buffer_size": 2423,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "postcss.config.js",
+			"settings":
+			{
+				"buffer_size": 107,
 				"line_ending": "Unix"
 			}
 		}
@@ -543,10 +559,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 400.0,
-		"last_filter": "rpa",
+		"height": 205.0,
+		"last_filter": "remove",
 		"selected_items":
 		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
 			[
 				"rpa",
 				"Package Control: Remove Package"
@@ -614,10 +634,6 @@
 			[
 				"co",
 				"Colorsublime: Install Theme"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
 			],
 			[
 				"re",
@@ -750,21 +766,32 @@
 	"expanded_folders":
 	[
 		"/Users/hanpei/Sites/guoanfu",
-		"/Users/hanpei/Sites/guoanfu/src"
+		"/Users/hanpei/Sites/guoanfu/dist",
+		"/Users/hanpei/Sites/guoanfu/dist/css",
+		"/Users/hanpei/Sites/guoanfu/src",
+		"/Users/hanpei/Sites/guoanfu/src/components",
+		"/Users/hanpei/Sites/guoanfu/src/components/counter",
+		"/Users/hanpei/Sites/guoanfu/src/reducers"
 	],
 	"file_history":
 	[
+		"/Users/hanpei/Sites/guoanfu/src/containers/counter/CounterContainer.js",
+		"/Users/hanpei/Sites/guoanfu/src/components/counter/Counter.js",
+		"/Users/hanpei/Sites/guoanfu/src/components/counter/Counter.scss",
+		"/Users/hanpei/Sites/guoanfu/package.json",
+		"/Users/hanpei/Sites/guoanfu/index.html",
+		"/Users/hanpei/Sites/guoanfu/webpack.config.dev.js",
+		"/Users/hanpei/Sites/guoanfu/webpack.config.prod.js",
+		"/Users/hanpei/Sites/guoanfu/dist/css/bundle.css",
+		"/Users/hanpei/Sites/guoanfu/postcss.config.js",
+		"/Users/hanpei/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/hanpei/Desktop/styles.css",
 		"/Users/hanpei/Sites/guoanfu/src/reducers/counterReducers.js",
 		"/Users/hanpei/Sites/guoanfu/src/index.js",
 		"/Users/hanpei/Sites/guoanfu/src/assets/styles/main.scss",
-		"/Users/hanpei/Sites/guoanfu/index.html",
 		"/Users/hanpei/Sites/guoanfu/src/Root.js",
 		"/Users/hanpei/Sites/guoanfu/src/containers/app/AppContainer.js",
 		"/Users/hanpei/Sites/guoanfu/.eslintrc",
-		"/Users/hanpei/Sites/guoanfu/package.json",
-		"/Users/hanpei/Sites/guoanfu/src/containers/counter/CounterContainer.js",
-		"/Users/hanpei/Sites/guoanfu/src/components/counter/Counter.js",
 		"/Users/hanpei/Sites/guoanfu/.eslintrc.js",
 		"/Users/hanpei/Sites/reddice/client/components/signup/TextFieldGroup.js",
 		"/Users/hanpei/Sites/reddice/client/components/home/HomePage.js",
@@ -799,7 +826,6 @@
 		"/Users/hanpei/Sites/reddice/node_modules/react/lib/checkReactTypeSpec.js",
 		"/Users/hanpei/Library/Application Support/Sublime Text 3/Cache/React Templates/react-templates.tmLanguage.rcache",
 		"/Users/hanpei/Sites/reddice/server/shared/validations/signup.js",
-		"/Users/hanpei/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/hanpei/Sites/reddice/client/data/timezones.js",
 		"/Users/hanpei/Sites/reddice/.babelrc",
 		"/Users/hanpei/Sites/reddice/client/Demo.js",
@@ -876,16 +902,11 @@
 		"/Users/hanpei/Sites/wechat_gasq/src/actions/exhibition.js",
 		"/Users/hanpei/Sites/wechat_gasq/src/actions/category.js",
 		"/Users/hanpei/Sites/wechat_gasq/src/reducers/categoryReducer.js",
-		"/Users/hanpei/Sites/wechat_gasq/node_modules/react-touch-loader/src/touch-loader.less",
-		"/Users/hanpei/Sites/wechat_gasq/src/components.wechat/product/Product.css",
-		"/Users/hanpei/Sites/wechat_gasq/src/assets/styles/Tloader.scss",
-		"/Users/hanpei/Sites/wechat_gasq/node_modules/react-touch-loader/lib/touch-loader.less",
-		"/Users/hanpei/Desktop/test.js",
-		"/Users/hanpei/Sites/wechat_gasq/src/components.wechat/check/CreateOrderBar.js"
+		"/Users/hanpei/Sites/wechat_gasq/node_modules/react-touch-loader/src/touch-loader.less"
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -938,6 +959,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"HotModuleReplacementPlugin",
+			"ExtractTextPlugin",
+			"scss",
+			"webpack",
+			"this.time",
+			"time",
 			"keyword",
 			"Boilerplate",
 			"true",
@@ -1059,13 +1086,7 @@
 			"App",
 			"rootEl",
 			"App",
-			"div",
-			"hello",
-			"fetch",
-			"saveState",
-			"curStorage",
-			"delPersonalAddressSuccess",
-			"DEL_PERSONALADDRESS_SUCCESS"
+			"div"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1128,24 +1149,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "package.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 167,
+						"buffer_size": 1906,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								167,
-								167
+								441,
+								441
 							]
 						],
 						"settings":
@@ -1155,12 +1176,27 @@
 							{
 								"close":
 								{
+									"1":
+									[
+										457,
+										458
+									]
 								},
 								"icon":
 								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"brackethighlighter.default"
+									]
 								},
 								"open":
 								{
+									"1":
+									[
+										441,
+										442
+									]
 								},
 								"unmatched":
 								{
@@ -1168,6 +1204,21 @@
 							},
 							"bracket_highlighter.regions":
 							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
@@ -1178,26 +1229,6 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1213,42 +1244,48 @@
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content"
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
 							],
-							"color_scheme": "Packages/User/Color Highlighter/themes/Lucario (SL).tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 262.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/Users/hanpei/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"file": "src/components/counter/Counter.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1054,
+						"buffer_size": 349,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								167,
+								271
 							]
 						],
 						"settings":
@@ -1260,8 +1297,8 @@
 								{
 									"1":
 									[
-										1052,
-										1053
+										272,
+										273
 									]
 								},
 								"icon":
@@ -1276,8 +1313,8 @@
 								{
 									"1":
 									[
-										0,
-										1
+										11,
+										12
 									]
 								},
 								"unmatched":
@@ -1343,14 +1380,238 @@
 								"bh_angle_content"
 							],
 							"color_scheme": "Packages/User/Color Highlighter/themes/Lucario (SL).tmTheme",
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "webpack.config.dev.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2423,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2115,
+								2115
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2114,
+										2115
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1363,
+										1364
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Lucario (SL).tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1509.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "postcss.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Lucario (SL).tmTheme",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1358,7 +1619,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 36.0
+		"height": 38.0
 	},
 	"input":
 	{
@@ -1395,7 +1656,7 @@
 	"project": "guoanfu.sublime-project",
 	"replace":
 	{
-		"height": 68.0
+		"height": 72.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -1404,6 +1665,46 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"post",
+				"postcss.config.js"
+			],
+			[
+				"counter.sc",
+				"src/components/counter/Counter.scss"
+			],
+			[
+				"webpa",
+				"webpack.config.dev.js"
+			],
+			[
+				"pac",
+				"package.json"
+			],
+			[
+				"web",
+				"webpack.config.prod.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"webpack.prod",
+				"webpack.config.prod.js"
+			],
+			[
+				"countercont",
+				"src/containers/counter/CounterContainer.js"
+			],
+			[
+				"counter.js",
+				"src/components/counter/Counter.js"
+			],
+			[
+				"webpac",
+				"webpack.config.dev.js"
+			],
 			[
 				"counte",
 				"src/reducers/counterReducers.js"
@@ -1543,10 +1844,6 @@
 			[
 				"signup",
 				"server/shared/validations/signup.js"
-			],
-			[
-				"web",
-				"webpack.config.dev.js"
 			],
 			[
 				"sinuppage",
@@ -1879,42 +2176,6 @@
 			[
 				"createorderbar",
 				"src/components.wechat/check/CreateOrderBar.js"
-			],
-			[
-				"payment",
-				"src/components.wechat/check/PaymentType.js"
-			],
-			[
-				"createorderpro",
-				"src/components.wechat/check/CreateOrderProducts.js"
-			],
-			[
-				"orderdetailco",
-				"src/components.wechat/order/OrderDetailCode.js"
-			],
-			[
-				"current",
-				"src/reducers/currentAddressReducer.js"
-			],
-			[
-				"shopre",
-				"src/reducers/eshopReducer.js"
-			],
-			[
-				"categoryredu",
-				"src/reducers/categoryReducer.js"
-			],
-			[
-				"catproredu",
-				"src/reducers/catproReducer.js"
-			],
-			[
-				"catpropro",
-				"src/containers.wechat/CatproProductsContainer.js"
-			],
-			[
-				"orderdetailcon",
-				"src/containers.wechat/OrderDetailContainer.js"
 			]
 		],
 		"width": 0.0
