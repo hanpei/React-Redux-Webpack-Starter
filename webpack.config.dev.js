@@ -58,10 +58,21 @@ module.exports = {
       // ExtractTextPlugin在生产环境中使用，否则无法实现css_modules的hot-reload
       {
         test: /\.(css|scss)$/,
+        exclude: path.join(__dirname, 'src/styles'),
         loader: ExtractTextPlugin.extract(
           'style-loader',
           'css-loader?modules&localIdentName=[name]__[local]__[hash:base64:5]!postcss-loader!sass-loader' // ExtractTextPlugin必须写一起
-        ) 
+        )
+      },
+      {
+        test: /\.(css|scss)$/,
+        include: path.join(__dirname, 'src/styles'),
+        loaders: [
+          'style-loader',
+          'css-loader', // styles目录中的css不使用css_modules
+          'postcss-loader',
+          'sass-loader'
+        ]
       }
     ]
   },
@@ -70,12 +81,12 @@ module.exports = {
       path.resolve(__dirname),
     ],
     // add alias for application code directory
-    alias:{
+    alias: {
       components: 'src/components',
       containers: 'src/containers',
       actions: 'src/actions',
       constants: 'src/constants'
     },
-    extensions: [ '', '.js' ]
+    extensions: ['', '.js']
   }
 };
