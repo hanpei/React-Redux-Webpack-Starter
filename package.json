@@ -8,7 +8,9 @@
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
     "build": "npm run clean && npm run build:webpack",
     "dev": "NODE_ENV=development npm start",
-    "start": "node devServer.js"
+    "start": "node devServer.js",
+    "test": "jest --config .jestrc",
+    "test:watch": "npm test -- --watch"
   },
   "keywords": [],
   "author": "hanpei",
@@ -51,6 +53,7 @@
     "eslint-plugin-standard": "^2.0.1",
     "express": "^4.14.0",
     "extract-text-webpack-plugin": "^1.0.1",
+    "jest": "^18.1.0",
     "node-sass": "^4.1.1",
     "postcss-loader": "^1.2.1",
     "react-hot-loader": "^3.0.0-beta.6",

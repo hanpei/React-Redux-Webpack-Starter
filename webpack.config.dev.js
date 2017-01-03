@@ -45,25 +45,26 @@ module.exports = {
         loaders: ['babel'],
         include: path.join(__dirname, 'src')
       },
-      // {
-      //   test: /\.(css|scss)$/,
-      //   loaders: [
-      //     'style-loader',
-      //     'css-loader?modules&localIdentName=[name]__[local]__[hash:base64:5]',
-      //     'postcss-loader',
-      //     'sass-loader'
-      //   ],
-      // },
-
-      // ExtractTextPlugin在生产环境中使用，否则无法实现css_modules的hot-reload
       {
         test: /\.(css|scss)$/,
         exclude: path.join(__dirname, 'src/styles'),
-        loader: ExtractTextPlugin.extract(
+        loaders: [
           'style-loader',
-          'css-loader?modules&localIdentName=[name]__[local]__[hash:base64:5]!postcss-loader!sass-loader' // ExtractTextPlugin必须写一起
-        )
+          'css-loader?modules&localIdentName=[name]__[local]__[hash:base64:5]',
+          'postcss-loader',
+          'sass-loader'
+        ],
       },
+
+      // // ExtractTextPlugin在生产环境中使用，否则无法实现css_modules的hot-reload
+      // {
+      //   test: /\.(css|scss)$/,
+      //   exclude: path.join(__dirname, 'src/styles'),
+      //   loader: ExtractTextPlugin.extract(
+      //     'style-loader',
+      //     'css-loader?modules&localIdentName=[name]__[local]__[hash:base64:5]!postcss-loader!sass-loader' // ExtractTextPlugin必须写一起
+      //   )
+      // },
       {
         test: /\.(css|scss)$/,
         include: path.join(__dirname, 'src/styles'),
@@ -85,7 +86,8 @@ module.exports = {
       components: 'src/components',
       containers: 'src/containers',
       actions: 'src/actions',
-      constants: 'src/constants'
+      constants: 'src/constants',
+      reducers: 'src/reducers'
     },
     extensions: ['', '.js']
   }
