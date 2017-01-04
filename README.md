@@ -10,9 +10,9 @@
 * CSS: autoprefixer/sass/css_modules
 * autoprefixer browserslist setting in package.json
 * eslint: standard config
+# test: jest config
 
 
 ## TODO
 
-* jest settings
 * update to webpack v2.0
